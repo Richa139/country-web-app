@@ -1,0 +1,25 @@
+.country-list-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.country-list {
+  padding: 2em;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, auto));
+  justify-content: center;
+  gap: 4em;
+
+  @media (min-width: 1200px) {
+    grid-template-columns: repeat(4, minmax(15em, auto));
+  }
+
+  @media (max-width: 425px) {
+      gap : 2em;
+  }
+}
+.load-more, .loading {
+  margin: 4em auto;
+}
