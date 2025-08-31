@@ -1,12 +1,7 @@
 
 ````markdown
-<h1 align="center">COUNTRY APP</h1>
 
 A React Application showing all the countries of the world by fetching data from an API. 😻  
-
-[Live Link](https://country-app-3krm.onrender.com) (Hosted Using Render)
-
-This is a challenge from [Front End Mentor](https://www.frontendmentor.io/solutions/country-app-using-react-redux-and-react-router-dW1pmiPOz)
 
 ---
 
